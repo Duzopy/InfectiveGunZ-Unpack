@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+	<NPCModel></NPCModel>
+	<AddBaseModel name="FZombie" filename="FZombie.elu"> </AddBaseModel>
+	<MakeAnimationMap ></MakeAnimationMap>
+
+<AddAnimation name="idle" filename="FZombie_idle.elu.ani" gm="0" motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+<AddAnimation name="neglect1" filename="Fzombie_neglect.elu.ani" gm="0" motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+<AddAnimation name="melee_attacked1"	filename="FZombie_damage_melee.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+<AddAnimation name="melee_attacked2"	filename="FZombie_damage_melee2.elu.ani" gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+<AddAnimation name="range_attacked1"	filename="Fzombie_damage_range.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+<AddAnimation name="lightning"		filename="Fzombie_damage_lightning.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+
+<AddAnimation name="melee_attack"	filename="Fzombie_standshot.elu.ani"		gm="1"	motion_type="0" motion_loop_type="loop" 	> </AddAnimation>
+
+<AddAnimation name="run"		filename="Fzombie_run.elu.ani"		gm="1" 	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+<AddAnimation name="die"		filename="Fzombie_die.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+<AddAnimation name="special_attack1" 	filename="Fzombie_uppercut.elu.ani" gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+<AddAnimation name="special_attack2" 	filename="Fzombie_uppercut.elu.ani" gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+	<AddAnimation name="stunned" 		filename="Fzombie_damage_down.elu.ani"	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+</xml>

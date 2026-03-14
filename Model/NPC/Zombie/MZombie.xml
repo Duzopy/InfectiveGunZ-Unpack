@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+	<NPCModel></NPCModel>
+	<AddBaseModel name="MZombie" filename="MZombie.elu"> </AddBaseModel>
+	<MakeAnimationMap ></MakeAnimationMap>
+
+	<AddAnimation name="idle"		filename="MZombie_idle.elu.ani" 	 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="neglect1"		filename="MZombie_Neglect.elu.ani" 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attacked1"	filename="MZombie_damage_melee.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="melee_attacked2"	filename="MZombie_damage_melee2.elu.ani" gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="range_attacked1"	filename="MZombie_damage_range.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="lightning"		filename="MZombie_damage_lightning.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attack"	filename="MZombie_standshot.elu.ani"		gm="1"	sound="quest/goblin/GoblinK_attack"	motion_type="0" motion_loop_type="loop" 	> </AddAnimation>
+
+	<AddAnimation name="run"		filename="MZombie_Run.elu.ani"		gm="1" 	sound="Ghost_Walk"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="die"		filename="MZombie_die.elu.ani"		gm="1"	sound="quest/goblin/GoblinK_die"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+	<AddAnimation name="special_attack1" 	filename="MZombie_special1.elu.ani" 	gm="1"	sound="quest/goblin/GoblinK_special"		motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+	<AddAnimation name="special_attack2" 	filename="MZombie_Special2.elu.ani" 	gm="1"	sound="quest/goblin/GoblinC_FX_Fireball"		motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+	<AddAnimation name="special_attack3" 	filename="MZombie_Special3.elu.ani" 	gm="1"	sound="quest/goblin/GoblinK_special"		motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+	
+
+
+
+	<AddAnimation name="stunned" 		filename="MZombie_damage_down.elu.ani"	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+</xml>
